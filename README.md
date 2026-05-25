@@ -1,11 +1,11 @@
 ### **Backend Development**
-- Go (Golang) | Node.js | Python
-- Clean Architecture | Domain-Driven Design (DDD) | REST APIs  
+- Go (Golang) | Typescript | Node.js | Python
+- Clean Architecture | Domain-Driven Design (DDD) | Event Modeling | REST APIs 
 - JWT Authentication | Middleware Design | Async Workers  
 
 ### **Cloud & Infrastructure**
-- AWS ECS | S3 | SQS (FIFO & Standard) | MWAA (Airflow)  
-- Docker | CI/CD Pipelines (CircleCI, Jenkins, AWS Systems Manager)  
+- AWS ECS | S3 | SQS | MWAA (Airflow)  
+- Docker | CI/CD Pipelines (CircleCI, Jenkins, Github actions)  
 
 ### **Data & Automation**
 - Apache Airflow DAGs for data ingestion and preprocessing  
