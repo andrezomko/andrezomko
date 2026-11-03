@@ -1,9 +1,3 @@
-# André Zomkowski
-
-**Backend Software Engineer | Go & AWS**
-
-I build maintainable, reliable, and observable backend systems, with a focus on distributed systems, asynchronous processing, data integration, and cloud-native services.
-
 <div align="center">
   <picture>
     <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/generated/galaxy-header-mobile-light.svg">
