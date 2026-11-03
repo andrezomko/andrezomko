@@ -1,0 +1,77 @@
+{
+  "period": {
+    "start_utc": "2025-11-03T17:02:17Z",
+    "end_utc": "2026-11-03T17:02:17Z",
+    "description": "Rolling 12 months ending at execution time, UTC"
+  },
+  "collected_at_utc": "2026-11-03T17:05:38Z",
+  "scope": "Pull requests and reviews in repositories owned by the employer's GitHub organization",
+  "personal_activity": {
+    "prs_opened": 200,
+    "prs_opened_status_at_collection": {
+      "merged": 176,
+      "open": 2,
+      "closed_without_merge": 22
+    },
+    "prs_merged": 176,
+    "prs_reviewed_from_others": 161,
+    "distinct_repositories_with_prs_or_reviews": 29
+  },
+  "languages": {
+    "basis": "Bytes of code per language as reported by GitHub (Linguist) for the original, non-fork repositories contributed to in the period, each repository counted once. Describes the projects, not the volume of code written by the author.",
+    "repositories_included": 29,
+    "rounding": "Percentages rounded to one decimal place; values below 0.05% appear as 0.0",
+    "distribution_percent": {
+      "Go": 28.8,
+      "Jupyter Notebook": 27.3,
+      "HTML": 12.3,
+      "JavaScript": 9.2,
+      "Python": 8.6,
+      "Vue": 7.2,
+      "TypeScript": 4.7,
+      "Mustache": 0.8,
+      "Go Template": 0.5,
+      "Shell": 0.2,
+      "Dockerfile": 0.2,
+      "CSS": 0.1,
+      "PLpgSQL": 0.1,
+      "Makefile": 0.0,
+      "SCSS": 0.0
+    }
+  },
+  "definitions": {
+    "prs_opened": "Pull requests authored by the user with creation date inside the period.",
+    "prs_opened_status_at_collection": "State of those same pull requests at collection time. Drafts count as open.",
+    "prs_merged": "Pull requests authored by the user with merge date inside the period, regardless of creation date.",
+    "prs_reviewed_from_others": "Distinct pull requests authored by someone else where the user submitted at least one review (approved, changes requested, commented or dismissed) with submission date inside the period. Pending, unsubmitted reviews are excluded. Plain conversation comments are not reviews.",
+    "distinct_repositories_with_prs_or_reviews": "Distinct repositories, deduplicated by repository ID, containing at least one pull request counted in prs_opened, prs_merged or prs_reviewed_from_others."
+  },
+  "methodology": {
+    "sources": "GitHub REST API: search for pull requests, pull request reviews, repository metadata and repository languages. Local Git history was not used for counts.",
+    "local_clones": "28 local clones checked; all 28 resolved through their Git remotes (fork parent or direct remote) to distinct original repositories in the organization. 25 of the 29 contributed repositories have a local clone; the other 4 were found only through the API.",
+    "pagination": "All list endpoints paginated at 100 items per page. Search ranges split automatically if a query exceeded the 1000 result cap; no split was needed (largest result set: 200).",
+    "rate_limits": "Retry with wait on primary and secondary rate limits and on server errors; no retries were needed. 6 search queries and 255 API calls in total.",
+    "review_verification": "Candidate PRs came from a reviewed-by search restricted to PRs updated inside the period (162 candidates). The review list of every candidate was read and filtered by reviewer and submission date; 161 qualified.",
+    "search_incomplete_results_flag": false
+  },
+  "coverage": {
+    "access_failures": 0,
+    "repositories_with_metadata_failure": 0,
+    "repositories_with_language_failure": 0,
+    "forks_excluded_from_languages": 0,
+    "review_lists_unreadable": 0,
+    "status": "complete within the limitations below"
+  },
+  "cross_checks": {
+    "graphql_contributions_collection": null,
+    "note": "GitHub's contribution calendar API returns these private contributions only as restricted, aggregated counts with no detail for this token context, so it could not be used as an independent cross check. The value is null, not zero."
+  },
+  "limitations": [
+    "Counts only cover what the authenticated account can see through the API. Repositories the account lost access to, or that were deleted or transferred out of the organization, are not counted.",
+    "Pull requests in personal forks or outside the organization are excluded by design.",
+    "Review candidates depend on GitHub updating a pull request's last updated timestamp when a review is submitted. A review on a PR whose timestamp did not change would be missed, so the review count is a lower bound in that edge case.",
+    "Language percentages reflect the current default branch of each repository at collection time, not the state during the period, and follow Linguist's rules for vendored and generated files.",
+    "Language data says nothing about infrastructure, cloud services or tooling, and should not be read that way.",
+    "Repository names, pull request identifiers, collaborators and internal content were intentionally left out."
+  ]
+}

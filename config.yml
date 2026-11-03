@@ -1,0 +1,38 @@
+username: andrezomko
+professional_stats: professional-stats.json
+profile:
+  name: "André Zomkowski"
+  tagline: "Backend Software Engineer | Go & AWS"
+  philosophy: "Reliable systems. Observable operations. Thoughtful automation."
+social:
+  linkedin: andrezomkowski
+galaxy_arms:
+  - name: "Backend Systems"
+    items: [Go, TypeScript, Python, PostgreSQL]
+  - name: "Cloud & Data"
+    items: [AWS, Lambda, SQS, DynamoDB, Kubernetes, Airflow]
+  - name: "Engineering"
+    items: [OpenTelemetry, Datadog, Argo CD, GitHub Actions]
+projects: []
+theme:
+  dark: deep-sky
+  light: deep-sky
+motion: true
+professional_areas:
+  - name: "Backend & Go"
+    items: [Golang, Microservices,nodeJS, python, typescript, REST APIs, Unit Testing, DDD, TDD, Extreme Programming]
+    anchors: [Golang, Microservices]
+  - name: "Cloud & Distributed Systems"
+    items: [AWS, Kubernetes, Docker  ECS, EC2, EKS, ECR , SQS, Lambda, Step Functions, API Gateway, ALB, NLB, Terraform]
+    anchors: [AWS, Kubernetes, Docker]
+  - name: "Data & Orchestration"
+    items: [PostgreSQL, MWAA, AWS S3, Data Integration, AWS DynamoDB, AWS Athena]
+    anchors: []
+  - name: "AI Engineering"
+    items: [SDD (Specification-driven Development), Open Spec , GitHub SDD, Agents, Agents Pipeline"]
+    anchors: [SDD, Agents]
+stats:
+  metrics: [commits, prs, issues, repos]
+languages:
+  exclude: []
+  max_display: 8
