@@ -21,13 +21,13 @@ motion: true
 professional_areas:
   - name: "Backend & Go"
     items: [Golang, Microservices,nodeJS, python, typescript, REST APIs, Unit Testing, DDD, TDD, Extreme Programming]
-    anchors: [Golang, Microservices]
+    anchors: [Golang, Microservices, DDD, TDD]
   - name: "Cloud & Distributed Systems"
     items: [AWS, Kubernetes, Docker  ECS, EC2, EKS, ECR , SQS, Lambda, Step Functions, API Gateway, ALB, NLB, Terraform]
-    anchors: [AWS, Kubernetes, Docker]
+    anchors: [AWS, Kubernetes, Docker, EKS, ECR, SQS ]
   - name: "Data & Orchestration"
     items: [PostgreSQL, MWAA, AWS S3, Data Integration, AWS DynamoDB, AWS Athena]
-    anchors: []
+    anchors: [AWS S3, DynamoDB, Athena]
   - name: "AI Engineering"
     items: [SDD (Specification-driven Development), Open Spec , GitHub SDD, Agents, Agents Pipeline"]
     anchors: [SDD, Agents]
