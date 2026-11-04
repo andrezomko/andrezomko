@@ -56,10 +56,6 @@ My work also spans REST APIs, JWT authentication, middleware, asynchronous worke
 
 I also work on PostgreSQL performance through indexing, vacuum, and query tuning, along with SSO integration, user consent tracking, network segmentation, firewall and VPN management, and automated error notifications.
 
-## Exploring AI-assisted engineering
-
-I am developing a specialization in agent orchestration, specification-driven development, and human-in-the-loop workflows. My focus is on automating the engineering lifecycle while keeping human judgment, testability, and operational visibility central to the process.
-
 **Everyday tools:** Linux, VSCode, GitHub, AWS and Kubectl.
 
 ---
