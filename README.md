@@ -60,7 +60,7 @@ I also work on PostgreSQL performance through indexing, vacuum, and query tuning
 
 I am developing a specialization in agent orchestration, specification-driven development, and human-in-the-loop workflows. My focus is on automating the engineering lifecycle while keeping human judgment, testability, and operational visibility central to the process.
 
-**Everyday tools:** Linux, VS Code, GitHub, Claude Code, and Codex.
+**Everyday tools:** Linux, VSCode, GitHub, AWS and Kubectl.
 
 ---
 
